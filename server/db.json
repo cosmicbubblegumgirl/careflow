@@ -1,0 +1,1022 @@
+{
+  "product": "CareFlow",
+  "database": "careflow_triage_cases",
+  "records": [
+    {
+      "id": "careflow-1",
+      "title": "Chest pain intake #001",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 42,
+      "trend": "High attention",
+      "updated": "8 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-2",
+      "title": "Medication conflict #002",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 49,
+      "trend": "In progress",
+      "updated": "13 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-3",
+      "title": "Follow-up callback #003",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 56,
+      "trend": "Ready",
+      "updated": "18 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-4",
+      "title": "Chest pain intake #004",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 63,
+      "trend": "High attention",
+      "updated": "23 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-5",
+      "title": "Medication conflict #005",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 70,
+      "trend": "In progress",
+      "updated": "28 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-6",
+      "title": "Follow-up callback #006",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 77,
+      "trend": "Ready",
+      "updated": "33 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-7",
+      "title": "Chest pain intake #007",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 84,
+      "trend": "High attention",
+      "updated": "38 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-8",
+      "title": "Medication conflict #008",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 91,
+      "trend": "In progress",
+      "updated": "43 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-9",
+      "title": "Follow-up callback #009",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 98,
+      "trend": "Ready",
+      "updated": "48 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-10",
+      "title": "Chest pain intake #010",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 48,
+      "trend": "High attention",
+      "updated": "53 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-11",
+      "title": "Medication conflict #011",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 55,
+      "trend": "In progress",
+      "updated": "58 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-12",
+      "title": "Follow-up callback #012",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 62,
+      "trend": "Ready",
+      "updated": "63 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-13",
+      "title": "Chest pain intake #013",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 69,
+      "trend": "High attention",
+      "updated": "68 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-14",
+      "title": "Medication conflict #014",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 76,
+      "trend": "In progress",
+      "updated": "73 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-15",
+      "title": "Follow-up callback #015",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 83,
+      "trend": "Ready",
+      "updated": "78 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-16",
+      "title": "Chest pain intake #016",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 90,
+      "trend": "High attention",
+      "updated": "83 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-17",
+      "title": "Medication conflict #017",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 97,
+      "trend": "In progress",
+      "updated": "88 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-18",
+      "title": "Follow-up callback #018",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 47,
+      "trend": "Ready",
+      "updated": "93 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-19",
+      "title": "Chest pain intake #019",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 54,
+      "trend": "High attention",
+      "updated": "98 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-20",
+      "title": "Medication conflict #020",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 61,
+      "trend": "In progress",
+      "updated": "103 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-21",
+      "title": "Follow-up callback #021",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 68,
+      "trend": "Ready",
+      "updated": "108 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-22",
+      "title": "Chest pain intake #022",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 75,
+      "trend": "High attention",
+      "updated": "113 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-23",
+      "title": "Medication conflict #023",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 82,
+      "trend": "In progress",
+      "updated": "118 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-24",
+      "title": "Follow-up callback #024",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 89,
+      "trend": "Ready",
+      "updated": "123 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-25",
+      "title": "Chest pain intake #025",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 96,
+      "trend": "High attention",
+      "updated": "128 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-26",
+      "title": "Medication conflict #026",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 46,
+      "trend": "In progress",
+      "updated": "133 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-27",
+      "title": "Follow-up callback #027",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 53,
+      "trend": "Ready",
+      "updated": "138 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-28",
+      "title": "Chest pain intake #028",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 60,
+      "trend": "High attention",
+      "updated": "143 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-29",
+      "title": "Medication conflict #029",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 67,
+      "trend": "In progress",
+      "updated": "148 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-30",
+      "title": "Follow-up callback #030",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 74,
+      "trend": "Ready",
+      "updated": "153 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-31",
+      "title": "Chest pain intake #031",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 81,
+      "trend": "High attention",
+      "updated": "158 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-32",
+      "title": "Medication conflict #032",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 88,
+      "trend": "In progress",
+      "updated": "163 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-33",
+      "title": "Follow-up callback #033",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 95,
+      "trend": "Ready",
+      "updated": "168 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-34",
+      "title": "Chest pain intake #034",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 45,
+      "trend": "High attention",
+      "updated": "173 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-35",
+      "title": "Medication conflict #035",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 52,
+      "trend": "In progress",
+      "updated": "178 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-36",
+      "title": "Follow-up callback #036",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 59,
+      "trend": "Ready",
+      "updated": "183 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-37",
+      "title": "Chest pain intake #037",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 66,
+      "trend": "High attention",
+      "updated": "188 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-38",
+      "title": "Medication conflict #038",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 73,
+      "trend": "In progress",
+      "updated": "193 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-39",
+      "title": "Follow-up callback #039",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 80,
+      "trend": "Ready",
+      "updated": "198 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-40",
+      "title": "Chest pain intake #040",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 87,
+      "trend": "High attention",
+      "updated": "203 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-41",
+      "title": "Medication conflict #041",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 94,
+      "trend": "In progress",
+      "updated": "208 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-42",
+      "title": "Follow-up callback #042",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 44,
+      "trend": "Ready",
+      "updated": "213 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-43",
+      "title": "Chest pain intake #043",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 51,
+      "trend": "High attention",
+      "updated": "218 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-44",
+      "title": "Medication conflict #044",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 58,
+      "trend": "In progress",
+      "updated": "223 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-45",
+      "title": "Follow-up callback #045",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 65,
+      "trend": "Ready",
+      "updated": "228 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-46",
+      "title": "Chest pain intake #046",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 72,
+      "trend": "High attention",
+      "updated": "233 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-47",
+      "title": "Medication conflict #047",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 79,
+      "trend": "In progress",
+      "updated": "238 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-48",
+      "title": "Follow-up callback #048",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 86,
+      "trend": "Ready",
+      "updated": "243 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-49",
+      "title": "Chest pain intake #049",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 93,
+      "trend": "High attention",
+      "updated": "248 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-50",
+      "title": "Medication conflict #050",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 43,
+      "trend": "In progress",
+      "updated": "253 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-51",
+      "title": "Follow-up callback #051",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 50,
+      "trend": "Ready",
+      "updated": "258 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-52",
+      "title": "Chest pain intake #052",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 57,
+      "trend": "High attention",
+      "updated": "263 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-53",
+      "title": "Medication conflict #053",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 64,
+      "trend": "In progress",
+      "updated": "268 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-54",
+      "title": "Follow-up callback #054",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 71,
+      "trend": "Ready",
+      "updated": "273 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-55",
+      "title": "Chest pain intake #055",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 78,
+      "trend": "High attention",
+      "updated": "278 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-56",
+      "title": "Medication conflict #056",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 85,
+      "trend": "In progress",
+      "updated": "283 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-57",
+      "title": "Follow-up callback #057",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 92,
+      "trend": "Ready",
+      "updated": "288 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-58",
+      "title": "Chest pain intake #058",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 42,
+      "trend": "High attention",
+      "updated": "293 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-59",
+      "title": "Medication conflict #059",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 49,
+      "trend": "In progress",
+      "updated": "298 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-60",
+      "title": "Follow-up callback #060",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 56,
+      "trend": "Ready",
+      "updated": "303 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-61",
+      "title": "Chest pain intake #061",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 63,
+      "trend": "High attention",
+      "updated": "308 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-62",
+      "title": "Medication conflict #062",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 70,
+      "trend": "In progress",
+      "updated": "313 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-63",
+      "title": "Follow-up callback #063",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 77,
+      "trend": "Ready",
+      "updated": "318 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-64",
+      "title": "Chest pain intake #064",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 84,
+      "trend": "High attention",
+      "updated": "323 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-65",
+      "title": "Medication conflict #065",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 91,
+      "trend": "In progress",
+      "updated": "328 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-66",
+      "title": "Follow-up callback #066",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 98,
+      "trend": "Ready",
+      "updated": "333 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-67",
+      "title": "Chest pain intake #067",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 48,
+      "trend": "High attention",
+      "updated": "338 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-68",
+      "title": "Medication conflict #068",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 55,
+      "trend": "In progress",
+      "updated": "343 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-69",
+      "title": "Follow-up callback #069",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 62,
+      "trend": "Ready",
+      "updated": "348 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-70",
+      "title": "Chest pain intake #070",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 69,
+      "trend": "High attention",
+      "updated": "353 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-71",
+      "title": "Medication conflict #071",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 76,
+      "trend": "In progress",
+      "updated": "358 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-72",
+      "title": "Follow-up callback #072",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 83,
+      "trend": "Ready",
+      "updated": "363 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-73",
+      "title": "Chest pain intake #073",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 90,
+      "trend": "High attention",
+      "updated": "368 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-74",
+      "title": "Medication conflict #074",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 97,
+      "trend": "In progress",
+      "updated": "373 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-75",
+      "title": "Follow-up callback #075",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 47,
+      "trend": "Ready",
+      "updated": "378 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-76",
+      "title": "Chest pain intake #076",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 54,
+      "trend": "High attention",
+      "updated": "383 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-77",
+      "title": "Medication conflict #077",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 61,
+      "trend": "In progress",
+      "updated": "388 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-78",
+      "title": "Follow-up callback #078",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 68,
+      "trend": "Ready",
+      "updated": "393 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-79",
+      "title": "Chest pain intake #079",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 75,
+      "trend": "High attention",
+      "updated": "398 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-80",
+      "title": "Medication conflict #080",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 82,
+      "trend": "In progress",
+      "updated": "403 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-81",
+      "title": "Follow-up callback #081",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 89,
+      "trend": "Ready",
+      "updated": "408 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-82",
+      "title": "Chest pain intake #082",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 96,
+      "trend": "High attention",
+      "updated": "413 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-83",
+      "title": "Medication conflict #083",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 46,
+      "trend": "In progress",
+      "updated": "418 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-84",
+      "title": "Follow-up callback #084",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 53,
+      "trend": "Ready",
+      "updated": "423 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-85",
+      "title": "Chest pain intake #085",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 60,
+      "trend": "High attention",
+      "updated": "428 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-86",
+      "title": "Medication conflict #086",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 67,
+      "trend": "In progress",
+      "updated": "433 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-87",
+      "title": "Follow-up callback #087",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 74,
+      "trend": "Ready",
+      "updated": "438 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-88",
+      "title": "Chest pain intake #088",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 81,
+      "trend": "High attention",
+      "updated": "443 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-89",
+      "title": "Medication conflict #089",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 88,
+      "trend": "In progress",
+      "updated": "448 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-90",
+      "title": "Follow-up callback #090",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 95,
+      "trend": "Ready",
+      "updated": "453 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-91",
+      "title": "Chest pain intake #091",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 45,
+      "trend": "High attention",
+      "updated": "458 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-92",
+      "title": "Medication conflict #092",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 52,
+      "trend": "In progress",
+      "updated": "463 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-93",
+      "title": "Follow-up callback #093",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 59,
+      "trend": "Ready",
+      "updated": "468 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-94",
+      "title": "Chest pain intake #094",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 66,
+      "trend": "High attention",
+      "updated": "473 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-95",
+      "title": "Medication conflict #095",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 73,
+      "trend": "In progress",
+      "updated": "478 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-96",
+      "title": "Follow-up callback #096",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 80,
+      "trend": "Ready",
+      "updated": "483 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-97",
+      "title": "Chest pain intake #097",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 87,
+      "trend": "High attention",
+      "updated": "488 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-98",
+      "title": "Medication conflict #098",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 94,
+      "trend": "In progress",
+      "updated": "493 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-99",
+      "title": "Follow-up callback #099",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 44,
+      "trend": "Ready",
+      "updated": "498 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "careflow-100",
+      "title": "Chest pain intake #100",
+      "status": "Audit-ready routing",
+      "owner": "Handoff notes",
+      "score": 51,
+      "trend": "High attention",
+      "updated": "503 min ago",
+      "demoSeed": true
+    }
+  ],
+  "users": [
+    {
+      "id": "u-1",
+      "name": "Simone Govender",
+      "email": "simone@careflow.demo",
+      "password": "demo123",
+      "role": "Product designer"
+    },
+    {
+      "id": "u-2",
+      "name": "Nurse Lead",
+      "email": "nurse.lead@careflow.demo",
+      "password": "triage123",
+      "role": "Triage coordinator"
+    }
+  ]
+}

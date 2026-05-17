@@ -1,31 +1,48 @@
-<!doctype html><html lang="en"><head>
+<!doctype html>
+<html lang="en">
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Case Study | CareFlow</title>
-  <meta name="description" content="CareFlow product design case study." />
+  <meta name="description" content="CareFlow product design case study for a hospital command center." />
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="assets/styles.css" />
-  <style>:root{--brand:#0f766e;--accent:#f97316;--second:#2563eb;--soft:#ecfdf7;--dark:#10211f}</style>
-</head><body><header class="topbar">
-  <a class="brand" href="index.html"><img src="assets/logo.svg" alt="CareFlow logo" /><span><strong>CareFlow</strong><small>Clinical Triage Console</small></span></a>
-  <nav aria-label="CareFlow navigation">
-    <a href="index.html">Home</a>
-    <a href="product.html">Product</a>
-    <a href="workspace.html">Workspace</a>
-    <a href="case-study.html">Case Study</a>
-    <a href="demo.html">Demo</a>
-  </nav>
-  <button class="theme-toggle" type="button" data-theme-toggle>Dark</button>
-</header><main><section class="hero">
-  <div class="hero-copy">
-    <p class="eyebrow">Case study</p>
-    <h1>CareFlow product design case study.</h1>
-    <p class="lead">A portfolio case study for busy clinics and care teams, showing problem framing, UX decisions, implementation logic, and data-backed interaction design.</p>
-    <div class="hero-actions"><a class="button primary" href="workspace.html">Open workspace</a><a class="button secondary" href="demo.html">Try demo</a></div>
-    <p class="notice">Designed by me, Simone Govender. Front end, JSON data layer, and local browser persistence.</p>
-  </div>
-  <aside class="product-stage" aria-label="CareFlow live preview">
-    <div class="stage-top"><span></span><span></span><span></span><strong data-live-status>Loading data</strong></div>
-    <div class="stage-body"><img src="assets/preview.svg" alt="CareFlow interface preview" /><div class="live-panel" data-live-panel></div></div>
-  </aside>
-</section><section class="section"><div class="case-grid"><article class="panel"><p class="eyebrow">Problem</p><h3>Reduce triage overload</h3><p>Acuity scoring supports this by turning a messy workflow into a visible product state.</p></article><article class="panel"><p class="eyebrow">UX move</p><h3>Make missing patient context visible</h3><p>Missing-context flags supports this by turning a messy workflow into a visible product state.</p></article><article class="panel"><p class="eyebrow">Outcome</p><h3>Help care teams explain priority decisions</h3><p>Nurse handoff notes supports this by turning a messy workflow into a visible product state.</p></article></div></section><section class="section"><div class="section-heading"><p class="eyebrow">Live workspace</p><h2>CareFlow dashboard.</h2><p>Fetched KPI cards, filterable records, workflow rules, and a visual score chart render from the JSON endpoint.</p></div><div class="kpi-grid" data-kpis></div><div class="workspace-grid"><article class="panel"><div class="panel-head"><div><p class="eyebrow">Records</p><h3>Operational queue</h3></div><input class="inline-search" data-record-search placeholder="Filter records" /></div><div class="record-list" data-records></div></article><article class="panel"><p class="eyebrow">Score shape</p><h3>Priority chart</h3><div class="chart" data-chart></div></article><article class="panel wide"><p class="eyebrow">Workflow</p><h3>Product rules</h3><div class="workflow-list" data-workflow></div></article></div></section></main><footer><img src="assets/logo.svg" alt="" aria-hidden="true" /><p><strong>CareFlow</strong><br/>Designed by me, Simone Govender. Standalone GitHub Pages product site with front-end UI, JSON data layer, and local persistence.</p></footer><script>window.SITE_CONFIG={"slug":"careflow","name":"CareFlow","category":"Clinical Triage Console","audience":"busy clinics and care teams","tone":"clinical calm","brand":"#0f766e","accent":"#f97316","second":"#2563eb","soft":"#ecfdf7","dark":"#10211f","symbol":"pulse","tagline":"A calmer triage command center for busy clinics.","summary":"CareFlow turns patient intake, acuity, missing context, and handoff readiness into a nurse-friendly triage queue.","features":["Acuity scoring","Missing-context flags","Nurse handoff notes","Audit-ready routing"],"pages":["Triage queue","Patient intake","Clinical dashboard","Handoff notes"],"demo":{"label":"Triage Simulator","fields":["Pain severity","Wait time","Missing data"],"result":"Priority score","outcomes":["Monitor","Review","Escalate"]},"records":["Chest pain intake","Medication conflict","Follow-up callback"],"caseStudy":["Reduce triage overload","Make missing patient context visible","Help care teams explain priority decisions"]};</script><script src="assets/app.js"></script></body></html>
+</head>
+<body data-page="case-study">
+  <header class="shell-header">
+    <a class="brand-lockup" href="index.html"><img src="assets/logo.svg" alt="" /><span><strong>CareFlow</strong><small>Hospital Command Center</small></span></a>
+    <nav aria-label="CareFlow navigation"><a href="index.html">Overview</a><a href="workspace.html">Command</a><a href="product.html">Patients</a><a href="demo.html">Analytics</a><a href="database.html">Database</a><a href="case-study.html">Case Study</a></nav>
+    <div class="header-actions"><span data-session-pill>Guest mode</span><a class="icon-button" href="login.html">Login</a><button class="icon-button" type="button" data-theme-toggle>Light</button></div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="kicker">Product design case study</p>
+      <h1>Designing a hospital command center around shared situational awareness.</h1>
+      <p>CareFlow was framed as a command product: one place for clinicians, operations leads, and handoff teams to see the same truth under pressure.</p>
+    </section>
+
+    <section class="section story-grid">
+      <article><span>Problem</span><h2>Critical decisions were split across queues, calls, notes, and room status updates.</h2></article>
+      <article><span>UX strategy</span><h2>Make status, risk, owner, and next action visible before the next escalation.</h2></article>
+      <article><span>Outcome</span><h2>A command center experience with 100 demo records, login, local database actions, and a working backend path.</h2></article>
+    </section>
+
+    <section class="section split-section">
+      <div>
+        <p class="kicker">Design principles</p>
+        <h2>Built for scanning, explaining, and acting.</h2>
+      </div>
+      <div class="feature-list">
+        <article><b>01</b><span>Reduce triage overload with a visible acuity model.</span></article>
+        <article><b>02</b><span>Show missing context before it becomes a handoff problem.</span></article>
+        <article><b>03</b><span>Use plain language for status, owner, and next action.</span></article>
+        <article><b>04</b><span>Connect data analytics to process improvement.</span></article>
+      </div>
+    </section>
+  </main>
+
+  <footer><img src="assets/logo.svg" alt="" /><p><strong>CareFlow</strong><br />Designed by me, Simone Govender.</p></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

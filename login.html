@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login | CareFlow</title>
+  <meta name="description" content="CareFlow demo login for hospital command center workflows." />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-page="login">
+  <header class="shell-header">
+    <a class="brand-lockup" href="index.html"><img src="assets/logo.svg" alt="" /><span><strong>CareFlow</strong><small>Hospital Command Center</small></span></a>
+    <nav aria-label="CareFlow navigation"><a href="index.html">Overview</a><a href="workspace.html">Command</a><a href="product.html">Patients</a><a href="demo.html">Analytics</a><a href="database.html">Database</a><a href="case-study.html">Case Study</a></nav>
+    <div class="header-actions"><span data-session-pill>Guest mode</span><a class="icon-button" href="login.html">Login</a><button class="icon-button" type="button" data-theme-toggle>Light</button></div>
+  </header>
+
+  <main>
+    <section class="login-shell">
+      <article class="login-panel">
+        <p class="kicker">Role-based demo access</p>
+        <h1>Sign in to the command center.</h1>
+        <p>Use a demo account to unlock the database console and save local hospital command records.</p>
+        <form data-login-form>
+          <label>Email<input name="email" type="email" value="simone@careflow.demo" required /></label>
+          <label>Password<input name="password" type="password" value="demo123" required /></label>
+          <button class="button primary" type="submit">Sign in</button>
+          <p data-login-status></p>
+        </form>
+        <div class="credential-grid">
+          <button type="button" data-demo-user="simone@careflow.demo" data-demo-password="demo123"><strong>Simone Govender</strong><span>simone@careflow.demo / demo123</span></button>
+          <button type="button" data-demo-user="nurse.lead@careflow.demo" data-demo-password="triage123"><strong>Nurse Lead</strong><span>nurse.lead@careflow.demo / triage123</span></button>
+        </div>
+        <button class="button secondary" type="button" data-logout>Clear session</button>
+      </article>
+      <aside class="login-status-card">
+        <img src="assets/logo.svg" alt="" />
+        <p class="kicker">Current session</p>
+        <div data-session-detail>No active session.</div>
+      </aside>
+    </section>
+  </main>
+
+  <footer><img src="assets/logo.svg" alt="" /><p><strong>CareFlow</strong><br />Designed by me, Simone Govender.</p></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

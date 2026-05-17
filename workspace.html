@@ -1,34 +1,64 @@
-<!doctype html><html lang="en"><head>
+<!doctype html>
+<html lang="en">
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Workspace | CareFlow</title>
-  <meta name="description" content="CareFlow dynamic dashboard workspace." />
+  <title>Command Center | CareFlow</title>
+  <meta name="description" content="CareFlow command center for triage, bed pressure, clinical handoffs, and live hospital operations." />
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="assets/styles.css" />
-  <style>:root{--brand:#0f766e;--accent:#f97316;--second:#2563eb;--soft:#ecfdf7;--dark:#10211f}</style>
-</head><body><header class="topbar">
-  <a class="brand" href="index.html"><img src="assets/logo.svg" alt="CareFlow logo" /><span><strong>CareFlow</strong><small>Clinical Triage Console</small></span></a>
-  <nav aria-label="CareFlow navigation">
-    <a href="index.html">Home</a>
-    <a href="product.html">Product</a>
-    <a href="workspace.html">Workspace</a>
-    <a href="case-study.html">Case Study</a>
-    <a href="demo.html">Demo</a>
-  </nav>
-  <button class="theme-toggle" type="button" data-theme-toggle>Dark</button>
-</header><main><section class="hero">
-  <div class="hero-copy">
-    <p class="eyebrow">Dynamic workspace</p>
-    <h1>CareFlow live data workspace.</h1>
-    <p class="lead">A front-end dashboard that fetches the backend JSON model, renders filtered records, charts, workflow logic, and local saved states.</p>
-    <div class="hero-actions"><a class="button primary" href="workspace.html">Try saved demo</a><a class="button secondary" href="demo.html">Try demo</a></div>
-    <p class="notice">Designed by me, Simone Govender. Front end, JSON data layer, and local browser persistence.</p>
-  </div>
-  <aside class="product-stage" aria-label="CareFlow live preview">
-    <div class="stage-top"><span></span><span></span><span></span><strong data-live-status>Loading data</strong></div>
-    <div class="stage-body"><img src="assets/preview.svg" alt="CareFlow interface preview" /><div class="live-panel" data-live-panel></div></div>
-  </aside>
-</section><section class="section"><div class="section-heading"><p class="eyebrow">Live workspace</p><h2>CareFlow dashboard.</h2><p>Fetched KPI cards, filterable records, workflow rules, and a visual score chart render from the JSON endpoint.</p></div><div class="kpi-grid" data-kpis></div><div class="workspace-grid"><article class="panel"><div class="panel-head"><div><p class="eyebrow">Records</p><h3>Operational queue</h3></div><input class="inline-search" data-record-search placeholder="Filter records" /></div><div class="record-list" data-records></div></article><article class="panel"><p class="eyebrow">Score shape</p><h3>Priority chart</h3><div class="chart" data-chart></div></article><article class="panel wide"><p class="eyebrow">Workflow</p><h3>Product rules</h3><div class="workflow-list" data-workflow></div></article></div></section><section class="section split">
-  <div class="section-heading"><p class="eyebrow">Back end layer</p><h2>Static API, dynamic rendering, saved interactions.</h2><p>GitHub Pages cannot run a server process, so this standalone site uses <code>api/data.json</code> as a backend data contract and localStorage for write-like saved state.</p></div>
-  <div class="api-card panel"><p class="eyebrow">API preview</p><pre data-api-preview>{}</pre></div>
-</section></main><footer><img src="assets/logo.svg" alt="" aria-hidden="true" /><p><strong>CareFlow</strong><br/>Designed by me, Simone Govender. Standalone GitHub Pages product site with front-end UI, JSON data layer, and local persistence.</p></footer><script>window.SITE_CONFIG={"slug":"careflow","name":"CareFlow","category":"Clinical Triage Console","audience":"busy clinics and care teams","tone":"clinical calm","brand":"#0f766e","accent":"#f97316","second":"#2563eb","soft":"#ecfdf7","dark":"#10211f","symbol":"pulse","tagline":"A calmer triage command center for busy clinics.","summary":"CareFlow turns patient intake, acuity, missing context, and handoff readiness into a nurse-friendly triage queue.","features":["Acuity scoring","Missing-context flags","Nurse handoff notes","Audit-ready routing"],"pages":["Triage queue","Patient intake","Clinical dashboard","Handoff notes"],"demo":{"label":"Triage Simulator","fields":["Pain severity","Wait time","Missing data"],"result":"Priority score","outcomes":["Monitor","Review","Escalate"]},"records":["Chest pain intake","Medication conflict","Follow-up callback"],"caseStudy":["Reduce triage overload","Make missing patient context visible","Help care teams explain priority decisions"]};</script><script src="assets/app.js"></script></body></html>
+</head>
+<body data-page="command">
+  <header class="shell-header">
+    <a class="brand-lockup" href="index.html"><img src="assets/logo.svg" alt="" /><span><strong>CareFlow</strong><small>Hospital Command Center</small></span></a>
+    <nav aria-label="CareFlow navigation"><a href="index.html">Overview</a><a href="workspace.html">Command</a><a href="product.html">Patients</a><a href="demo.html">Analytics</a><a href="database.html">Database</a><a href="case-study.html">Case Study</a></nav>
+    <div class="header-actions"><span data-session-pill>Guest mode</span><a class="icon-button" href="login.html">Login</a><button class="icon-button" type="button" data-theme-toggle>Light</button></div>
+  </header>
+
+  <main>
+    <section class="page-hero compact">
+      <p class="kicker">Central command</p>
+      <h1>Clinical decisions, capacity signals, and escalation work in one live room.</h1>
+      <p>Use the demo controls to simulate command center pressure and save a local escalation record.</p>
+    </section>
+
+    <section class="section command-preview">
+      <article class="command-screen full">
+        <div class="screen-top"><span></span><span></span><span></span><strong data-clock>00:00</strong></div>
+        <div class="screen-layout">
+          <aside class="capacity-stack"><p class="kicker">Bed and team pressure</p><div data-capacity></div><div class="bed-map" data-bed-map></div></aside>
+          <section>
+            <div class="queue-toolbar"><div><p class="kicker">Live triage</p><h3>Priority queue</h3></div><input data-record-search placeholder="Filter cases" /></div>
+            <div class="triage-list" data-records></div>
+          </section>
+          <aside class="signal-panel"><p class="kicker">Remote monitoring</p><div class="wave-lines"><i></i><i></i><i></i></div><div data-live-panel></div></aside>
+        </div>
+      </article>
+    </section>
+
+    <section class="section simulator-panel">
+      <form class="control-lab" data-triage-form>
+        <p class="kicker">Command simulator</p>
+        <h2>Escalation engine</h2>
+        <label>Clinical risk<input type="range" min="0" max="100" value="84" data-demo-input /></label>
+        <label>Waiting room pressure<input type="range" min="0" max="100" value="68" data-demo-input /></label>
+        <label>Missing patient context<input type="range" min="0" max="100" value="42" data-demo-input /></label>
+        <button class="button primary" type="submit">Save escalation</button>
+        <p data-form-status></p>
+      </form>
+      <article class="score-orbit">
+        <span>Priority score</span>
+        <strong data-demo-result>0%</strong>
+        <p data-outcome>Review</p>
+      </article>
+      <article class="saved-panel">
+        <p class="kicker">Saved local escalations</p>
+        <div data-saved-records></div>
+      </article>
+    </section>
+  </main>
+
+  <footer><img src="assets/logo.svg" alt="" /><p><strong>CareFlow</strong><br />Designed by me, Simone Govender.</p></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
