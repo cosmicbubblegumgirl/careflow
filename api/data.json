@@ -1,0 +1,96 @@
+{
+  "product": "CareFlow",
+  "category": "Clinical Triage Console",
+  "backend": "GitHub Pages static JSON endpoint plus localStorage write simulation.",
+  "generatedBy": "Simone Govender",
+  "metrics": [
+    {
+      "label": "Priority score",
+      "value": "86%",
+      "delta": "+12%"
+    },
+    {
+      "label": "Active records",
+      "value": "7",
+      "delta": "+3"
+    },
+    {
+      "label": "Workflow steps",
+      "value": "4",
+      "delta": "mapped"
+    },
+    {
+      "label": "Local saves",
+      "value": "on",
+      "delta": "browser"
+    }
+  ],
+  "records": [
+    {
+      "id": "careflow-1",
+      "title": "Chest pain intake",
+      "status": "Acuity scoring",
+      "owner": "Triage queue",
+      "score": 92,
+      "trend": "High attention",
+      "updated": "8 min ago"
+    },
+    {
+      "id": "careflow-2",
+      "title": "Medication conflict",
+      "status": "Missing-context flags",
+      "owner": "Patient intake",
+      "score": 80,
+      "trend": "In progress",
+      "updated": "19 min ago"
+    },
+    {
+      "id": "careflow-3",
+      "title": "Follow-up callback",
+      "status": "Nurse handoff notes",
+      "owner": "Clinical dashboard",
+      "score": 68,
+      "trend": "Ready",
+      "updated": "30 min ago"
+    }
+  ],
+  "workflow": [
+    {
+      "step": 1,
+      "title": "Acuity scoring",
+      "detail": "CareFlow uses acuity scoring to support triage queue decisions for busy clinics and care teams."
+    },
+    {
+      "step": 2,
+      "title": "Missing-context flags",
+      "detail": "CareFlow uses missing-context flags to support patient intake decisions for busy clinics and care teams."
+    },
+    {
+      "step": 3,
+      "title": "Nurse handoff notes",
+      "detail": "CareFlow uses nurse handoff notes to support clinical dashboard decisions for busy clinics and care teams."
+    },
+    {
+      "step": 4,
+      "title": "Audit-ready routing",
+      "detail": "CareFlow uses audit-ready routing to support handoff notes decisions for busy clinics and care teams."
+    }
+  ],
+  "activity": [
+    {
+      "title": "Reduce triage overload",
+      "time": "1h",
+      "kind": "Acuity scoring"
+    },
+    {
+      "title": "Make missing patient context visible",
+      "time": "2h",
+      "kind": "Missing-context flags"
+    },
+    {
+      "title": "Help care teams explain priority decisions",
+      "time": "3h",
+      "kind": "Nurse handoff notes"
+    }
+  ]
+}
